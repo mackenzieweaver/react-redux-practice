@@ -6,7 +6,7 @@ const ADD = 'ADD';
 function addMessage (message) {
   return ({
     type: ADD,
-    message: message,
+    message
   });
 }
 
